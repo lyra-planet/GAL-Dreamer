@@ -33,6 +33,9 @@ JSON输出示例:
 
 WORLDBUILDING_HUMAN_PROMPT = """请根据以下信息构建世界观:
 
+【用户原始创意】
+{user_idea}
+
 故事约束:
 {story_constraints}
 
@@ -44,6 +47,7 @@ WORLDBUILDING_HUMAN_PROMPT = """请根据以下信息构建世界观:
 1. 世界规则清晰明确
 2. 核心冲突根植于世界设定
 3. 所有元素服务于故事主题
+4. 尊重用户的原始创意意图
 """
 
 WORLDBUILDING_PROMPT = (

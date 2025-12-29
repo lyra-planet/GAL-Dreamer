@@ -1,22 +1,31 @@
 """
-Prompt模板初始化
+Prompt模板初始化 (世界观生成)
 """
 from .story_intake_prompt import STORY_INTAKE_PROMPT
 from .worldbuilding_prompt import WORLDBUILDING_PROMPT
-from .cast_design_prompt import CAST_DESIGN_PROMPT
-from .macro_plot_prompt import MACRO_PLOT_PROMPT
-from .route_design_prompt import ROUTE_DESIGN_PROMPT
-from .conflict_emotion_prompt import CONFLICT_EMOTION_PROMPT
-from .consistency_prompt import CONSISTENCY_PROMPT
-from .narrator_prompt import NARRATOR_PROMPT
+from .key_element_prompt import KEY_ELEMENT_SYSTEM_PROMPT, KEY_ELEMENT_HUMAN_PROMPT
+from .timeline_prompt import TIMELINE_SYSTEM_PROMPT, TIMELINE_HUMAN_PROMPT
+from .atmosphere_prompt import ATMOSPHERE_SYSTEM_PROMPT, ATMOSPHERE_HUMAN_PROMPT
+from .faction_prompt import FACTION_SYSTEM_PROMPT, FACTION_HUMAN_PROMPT
+from .consistency_prompt import CONSISTENCY_SYSTEM_PROMPT, CONSISTENCY_HUMAN_PROMPT
+from .world_fixer_prompt import WORLD_FIXER_SYSTEM_PROMPT, WORLD_FIXER_HUMAN_PROMPT
+from .world_summary_prompt import WORLD_SUMMARY_SYSTEM_PROMPT, WORLD_SUMMARY_HUMAN_PROMPT
 
 __all__ = [
     "STORY_INTAKE_PROMPT",
     "WORLDBUILDING_PROMPT",
-    "CAST_DESIGN_PROMPT",
-    "MACRO_PLOT_PROMPT",
-    "ROUTE_DESIGN_PROMPT",
-    "CONFLICT_EMOTION_PROMPT",
-    "CONSISTENCY_PROMPT",
-    "NARRATOR_PROMPT",
+    "KEY_ELEMENT_SYSTEM_PROMPT",
+    "KEY_ELEMENT_HUMAN_PROMPT",
+    "TIMELINE_SYSTEM_PROMPT",
+    "TIMELINE_HUMAN_PROMPT",
+    "ATMOSPHERE_SYSTEM_PROMPT",
+    "ATMOSPHERE_HUMAN_PROMPT",
+    "FACTION_SYSTEM_PROMPT",
+    "FACTION_HUMAN_PROMPT",
+    "CONSISTENCY_SYSTEM_PROMPT",
+    "CONSISTENCY_HUMAN_PROMPT",
+    "WORLD_FIXER_SYSTEM_PROMPT",
+    "WORLD_FIXER_HUMAN_PROMPT",
+    "WORLD_SUMMARY_SYSTEM_PROMPT",
+    "WORLD_SUMMARY_HUMAN_PROMPT",
 ]
