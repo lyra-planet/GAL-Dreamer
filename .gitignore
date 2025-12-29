@@ -1,0 +1,122 @@
+# ================================
+# GAL-Dreamer Git忽略文件
+# ================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# 环境变量配置
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 项目特定
+output/
+temp/
+cache/
+logs/
+data/
+*.log
+*.db
+
+# 生成的游戏
+generated_games/
+*.rpyc
+*.rpa
+*.rpymc
+
+# 图像生成输出
+images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 文档
+docs/_build/
+docs/.doctrees/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# 打包文件
+*.tar.gz
+*.zip
+*.rar
+
+# 模型文件
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+models/
+
+# 日志文件
+*.log
+logs/*.log
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
