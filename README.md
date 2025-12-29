@@ -19,12 +19,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/GAL-Dreamer.git
+git clone https://github.com/lyra-planet/GAL-Dreamer.git
 cd GAL-Dreamer
-
-# 创建虚拟环境
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 安装依赖
 pip install -r requirements.txt
@@ -40,7 +36,6 @@ cp .env.example .env
 # 至少需要配置:
 # - LLM_API_KEY (必填)
 # - LLM_PROVIDER (默认qwen)
-# - IMAGE_API_URL (如果使用Stable Diffusion)
 ```
 
 ### 3. 验证配置
@@ -124,61 +119,6 @@ PROJECT_OUTPUT_DIR=./output          # 输出目录
 LOG_LEVEL=INFO                       # 日志级别
 ```
 
-## 🔧 高级用法
-
-### 单独使用某个Agent
-
-```python
-from agents import WorldbuildingAgent
-
-agent = WorldbuildingAgent()
-
-world_setting = agent.run(
-    story_summary="一个赛博朋克世界",
-    world_type="科幻"
-)
-```
-
-### 自定义流程
-
-```python
-pipeline = MainPipeline()
-
-# 只执行特定模块
-result = pipeline.generate(
-    user_idea="魔法世界",
-    modules=["worldbuilding"]  # 只执行世界观构建
-)
-```
-
-## 🔧 开发
-
-### 运行测试
-
-```bash
-# 运行所有测试
-pytest
-
-# 运行单个测试
-pytest tests/test_agents.py
-
-# 查看覆盖率
-pytest --cov=.
-```
-
-### 代码规范
-
-```bash
-# 格式化代码
-black .
-
-# 检查代码风格
-flake8 .
-
-# 类型检查
-mypy .
-```
-
 ## 🗺️ 开发进度
 
 ### 已完成功能
@@ -245,12 +185,6 @@ mypy .
 
 欢迎贡献代码、提出建议或报告问题!
 
-1. Fork本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启Pull Request
-
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
@@ -263,9 +197,9 @@ mypy .
 
 ## 📮 联系方式
 
-- 项目主页: [GitHub](https://github.com/yourusername/GAL-Dreamer)
-- 问题反馈: [Issues](https://github.com/yourusername/GAL-Dreamer/issues)
+- 项目主页: [GitHub](https://github.com/lyra-planet/GAL-Dreamer)
+- 问题反馈: [Issues](https://github.com/lyra-planet/GAL-Dreamer/issues)
 
 ---
 
-**让我们一起用AI创造精彩的视觉小说世界！** 🎮✨
+**想要变成美少女。。。**
