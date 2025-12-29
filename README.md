@@ -5,10 +5,13 @@
 ## ✨ 特性
 
 - 🤖 **多Agent协作**: 基于LangChain的智能Agent系统
-- 📖 **自动编剧**: 自动生成完整的故事大纲和角色设定
-- 🎨 **图像生成**: 集成Stable Diffusion生成角色立绘和背景
-- 💻 **代码生成**: 自动生成可运行的Ren'Py项目
-- 🔄 **端到端**: 从创意到完整游戏,一步到位
+- 🌍 **世界观构建**: 自动生成完整的世界观设定和背景故事
+- 📜 **故事理解**: 智能分析用户创意，提取核心要素
+- ⏳ **时间线生成**: 自动构建世界历史和关键事件时间线
+- 🎭 **角色势力**: 生成NPC、势力组织和关键角色设定
+- 🎨 **氛围营造**: 统一世界氛围和基调设定
+- ✅ **一致性检查**: 自动检查并修复世界观设定中的矛盾
+- 💻 **Pipeline架构**: 模块化设计，易于扩展和定制
 
 ## 🚀 快速开始
 
@@ -46,38 +49,62 @@ cp .env.example .env
 python -c "from utils.config import config; config.validate(); print('✓ 配置验证通过')"
 ```
 
-### 4. 生成你的第一个Galgame
+### 4. 生成你的第一个世界观
 
 ```python
-from gal_dreamer import GALDreamer
+from pipelines.main_pipeline import MainPipeline
 
 # 初始化
-dreamer = GALDreamer()
+pipeline = MainPipeline()
 
-# 生成游戏
-game = dreamer.generate(
-    user_idea="一个时间旅行的校园恋爱故事"
+# 生成世界观
+result = pipeline.generate(
+    user_idea="一个魔法与科技共存的蒸汽朋克世界，"
+              "古代巨龙苏醒带来魔力的回归"
 )
 
-print(f"游戏已生成: {game.project_path}")
+print(f"世界观已生成: {result['worldbuilding']['output_dir']}")
 ```
 
 ## 📖 项目结构
 
 ```
 GAL-Dreamer/
-├── agents/          # Agent模块
-├── chains/          # LangChain链
-├── prompts/         # Prompt模板
-├── tools/           # 工具函数
-├── models/          # 数据模型
-├── utils/           # 工具类
-│   ├── config.py    # 配置管理
-│   └── logger.py    # 日志管理
-├── output/          # 输出目录
-├── .env.example     # 环境变量模板
-├── requirements.txt # 依赖列表
-└── PROJECT_PLAN.md  # 完整技术方案
+├── agents/                    # Agent模块
+│   ├── base_agent.py         # Agent基类
+│   ├── story_intake_agent.py # 故事理解Agent
+│   ├── worldbuilding_agent.py # 世界观构建Agent
+│   ├── key_element_agent.py  # 关键元素提取Agent
+│   ├── timeline_agent.py     # 时间线生成Agent
+│   ├── atmosphere_agent.py   # 氛围设定Agent
+│   ├── npc_faction_agent.py  # NPC势力生成Agent
+│   ├── world_consistency_agent.py # 一致性检查Agent
+│   ├── world_fixer_agent.py  # 世界观修复Agent
+│   └── world_summary_agent.py # 世界观摘要Agent
+├── pipelines/                 # Pipeline流程
+│   ├── main_pipeline.py      # 主流程入口
+│   └── worldbuilding_pipeline.py # 世界观构建流程
+├── prompts/                   # Prompt模板
+│   ├── story_intake_prompt.py
+│   ├── worldbuilding_prompt.py
+│   └── ...
+├── models/                    # 数据模型
+│   ├── story.py              # 故事相关模型
+│   ├── world.py              # 世界观模型
+│   ├── timeline.py           # 时间线模型
+│   ├── faction.py            # 势力模型
+│   └── ...
+├── utils/                     # 工具类
+│   ├── config.py             # 配置管理
+│   ├── logger.py             # 日志管理
+│   └── json_utils.py         # JSON工具
+├── tests/                     # 测试文件
+├── output/                    # 输出目录(已忽略)
+├── docs/                      # 文档目录
+├── .env.example               # 环境变量模板
+├── requirements.txt           # 依赖列表
+├── PROJECT_PLAN.md            # 完整技术方案
+└── README.md                  # 项目说明
 ```
 
 ## ⚙️ 配置说明
@@ -97,14 +124,32 @@ PROJECT_OUTPUT_DIR=./output          # 输出目录
 LOG_LEVEL=INFO                       # 日志级别
 ```
 
-详细配置说明请参考 [配置文档](docs/CONFIG.md)
+## 🔧 高级用法
 
-## 📚 文档
+### 单独使用某个Agent
 
-- [完整技术方案](PROJECT_PLAN.md) - 详细的系统设计和实现方案
-- [快速开始教程](docs/TUTORIAL.md) - 入门教程
-- [API文档](docs/API.md) - API接口文档
-- [配置指南](docs/CONFIG.md) - 详细配置说明
+```python
+from agents import WorldbuildingAgent
+
+agent = WorldbuildingAgent()
+
+world_setting = agent.run(
+    story_summary="一个赛博朋克世界",
+    world_type="科幻"
+)
+```
+
+### 自定义流程
+
+```python
+pipeline = MainPipeline()
+
+# 只执行特定模块
+result = pipeline.generate(
+    user_idea="魔法世界",
+    modules=["worldbuilding"]  # 只执行世界观构建
+)
+```
 
 ## 🔧 开发
 
@@ -134,16 +179,67 @@ flake8 .
 mypy .
 ```
 
-## 🗺️ 开发路线
+## 🗺️ 开发进度
 
-- [x] Phase 1: 基础框架搭建
-- [ ] Phase 2: Story Agent实现
-- [ ] Phase 3: Character Agent实现
-- [ ] Phase 4: Scene & Dialogue Agent
-- [ ] Phase 5: Image Agent实现
-- [ ] Phase 6: Code Agent实现
-- [ ] Phase 7: 完整流程集成
-- [ ] Phase 8: 优化和完善
+### 已完成功能
+
+- [x] **Phase 1**: 基础框架搭建
+  - [x] Agent基类设计
+  - [x] 配置管理系统
+  - [x] 日志系统
+  - [x] 数据模型定义
+
+- [x] **Phase 2**: 世界观构建系统
+  - [x] 故事理解Agent (StoryIntakeAgent)
+  - [x] 世界观构建Agent (WorldbuildingAgent)
+  - [x] 关键元素Agent (KeyElementAgent)
+  - [x] 时间线Agent (TimelineAgent)
+  - [x] 氛围Agent (AtmosphereAgent)
+  - [x] NPC势力Agent (NpcFactionAgent)
+  - [x] 一致性检查Agent (WorldConsistencyAgent)
+  - [x] 世界观修复Agent (WorldFixerAgent)
+  - [x] 世界观摘要Agent (WorldSummaryAgent)
+  - [x] 世界观构建Pipeline (WorldbuildingPipeline)
+
+- [x] **Phase 3**: 主流程集成
+  - [x] MainPipeline框架
+  - [x] 模块化执行流程
+  - [x] 输出管理
+
+### 计划功能
+
+- [ ] **Phase 4**: 图像生成系统
+  - [ ] Image Agent (集成Stable Diffusion/Flux)
+  - [ ] 角色立绘生成
+  - [ ] 背景图生成
+
+- [ ] **Phase 5**: 剧情生成系统
+  - [ ] Scene Agent (场景分解)
+  - [ ] Dialogue Agent (对话生成)
+  - [ ] 剧情脚本生成
+
+- [ ] **Phase 6**: 代码生成系统
+  - [ ] Code Agent (Ren'Py代码生成)
+  - [ ] 项目构建Agent
+  - [ ] 资源文件组织
+
+- [ ] **Phase 7**: 完整流程集成测试
+- [ ] **Phase 8**: 性能优化与用户体验提升
+
+## 📝 输出示例
+
+运行后会生成类似以下结构的世界观文件：
+
+```json
+{
+  "world_name": "巨龙觉醒的蒸汽纪元",
+  "world_type": "蒸汽朋克/高魔奇幻",
+  "core_concepts": ["蒸汽科技", "龙血魔法", "工业革命"],
+  "timeline": [...],
+  "factions": [...],
+  "atmosphere": {...}
+}
+```
 
 ## 🤝 贡献
 

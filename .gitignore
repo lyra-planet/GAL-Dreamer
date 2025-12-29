@@ -52,6 +52,9 @@ data/
 *.log
 *.db
 
+# Ren'Py SDK (should be installed separately)
+renpy/
+
 # 生成的游戏
 generated_games/
 *.rpyc
