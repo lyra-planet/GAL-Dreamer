@@ -4,8 +4,8 @@ Story Intake Agent
 """
 from typing import Dict, Any, List, Optional, Union
 
-from .base_agent import BaseAgent
-from prompts.story_intake_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.story_intake_prompt import (
     STORY_INTAKE_SYSTEM_PROMPT,
     STORY_INTAKE_HUMAN_PROMPT
 )

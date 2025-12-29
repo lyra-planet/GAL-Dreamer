@@ -5,12 +5,12 @@ Key Element Agent
 from typing import Dict, Any, List, Optional, Union
 import uuid
 
-from .base_agent import BaseAgent
-from prompts.key_element_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.key_element_prompt import (
     KEY_ELEMENT_SYSTEM_PROMPT,
     KEY_ELEMENT_HUMAN_PROMPT
 )
-from models.key_element import KeyElements
+from models.worldbuilding.key_element import KeyElements
 from utils.logger import log
 
 

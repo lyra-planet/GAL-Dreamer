@@ -4,12 +4,12 @@ Worldbuilding Agent
 """
 from typing import Dict, Any, List, Optional, Union
 
-from .base_agent import BaseAgent
-from prompts.worldbuilding_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.worldbuilding_prompt import (
     WORLDBUILDING_SYSTEM_PROMPT,
     WORLDBUILDING_HUMAN_PROMPT
 )
-from models.world import WorldSetting
+from models.worldbuilding.world import WorldSetting
 from utils.logger import log
 
 

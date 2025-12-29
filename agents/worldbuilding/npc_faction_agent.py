@@ -5,12 +5,12 @@ NPC势力Agent - 设计世界中的势力体系和NPC
 from typing import Dict, Any, List, Optional, Union
 import uuid
 
-from .base_agent import BaseAgent
-from prompts.faction_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.faction_prompt import (
     FACTION_SYSTEM_PROMPT,
     FACTION_HUMAN_PROMPT
 )
-from models.faction import WorldFactions
+from models.worldbuilding.faction import WorldFactions
 from utils.logger import log
 
 

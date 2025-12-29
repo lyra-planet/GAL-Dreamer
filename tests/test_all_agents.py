@@ -8,8 +8,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from utils.logger import log
-from agents.story_intake_agent import StoryIntakeAgent
-from agents.worldbuilding_agent import WorldbuildingAgent
+from agents.worldbuilding.story_intake_agent import StoryIntakeAgent
+from agents.worldbuilding.worldbuilding_agent import WorldbuildingAgent
 
 
 def test_story_intake():

@@ -5,12 +5,12 @@ Atmosphere Agent
 from typing import Dict, Any, List, Optional, Union
 import uuid
 
-from .base_agent import BaseAgent
-from prompts.atmosphere_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.atmosphere_prompt import (
     ATMOSPHERE_SYSTEM_PROMPT,
     ATMOSPHERE_HUMAN_PROMPT
 )
-from models.atmosphere import WorldAtmosphere
+from models.worldbuilding.atmosphere import WorldAtmosphere
 from utils.logger import log
 
 

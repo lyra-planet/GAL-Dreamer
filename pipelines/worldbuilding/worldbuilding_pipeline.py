@@ -9,28 +9,28 @@ from datetime import datetime
 from tqdm import tqdm
 
 # Agents
-from agents.story_intake_agent import StoryIntakeAgent
-from agents.worldbuilding_agent import WorldbuildingAgent
-from agents.key_element_agent import KeyElementAgent
-from agents.timeline_agent import TimelineAgent
-from agents.atmosphere_agent import AtmosphereAgent
-from agents.npc_faction_agent import NpcFactionAgent
-from agents.world_consistency_agent import WorldConsistencyAgent
-from agents.world_fixer_agent import WorldFixerAgent
-from agents.world_summary_agent import WorldSummaryAgent
+from agents.worldbuilding.story_intake_agent import StoryIntakeAgent
+from agents.worldbuilding.worldbuilding_agent import WorldbuildingAgent
+from agents.worldbuilding.key_element_agent import KeyElementAgent
+from agents.worldbuilding.timeline_agent import TimelineAgent
+from agents.worldbuilding.atmosphere_agent import AtmosphereAgent
+from agents.worldbuilding.npc_faction_agent import NpcFactionAgent
+from agents.worldbuilding.world_consistency_agent import WorldConsistencyAgent
+from agents.worldbuilding.world_fixer_agent import WorldFixerAgent
+from agents.worldbuilding.world_summary_agent import WorldSummaryAgent
 
 # 数据模型
 from utils.logger import log
 from utils.config import config
 from models.story import StoryConstraints
-from models.world import WorldSetting
-from models.key_element import KeyElements
-from models.timeline import WorldTimeline
-from models.atmosphere import WorldAtmosphere
-from models.faction import WorldFactions
-from models.consistency import ConsistencyReport
-from models.world_summary import WorldSummary
-from models.world_fix import WorldFixResult
+from models.worldbuilding.world import WorldSetting
+from models.worldbuilding.key_element import KeyElements
+from models.worldbuilding.timeline import WorldTimeline
+from models.worldbuilding.atmosphere import WorldAtmosphere
+from models.worldbuilding.faction import WorldFactions
+from models.worldbuilding.consistency import ConsistencyReport
+from models.worldbuilding.world_summary import WorldSummary
+from models.worldbuilding.world_fix import WorldFixResult
 
 
 class WorldbuildingPipeline:

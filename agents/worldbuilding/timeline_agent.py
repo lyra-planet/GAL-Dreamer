@@ -5,12 +5,12 @@ Timeline Agent
 from typing import Dict, Any, List, Optional, Union
 import uuid
 
-from .base_agent import BaseAgent
-from prompts.timeline_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.timeline_prompt import (
     TIMELINE_SYSTEM_PROMPT,
     TIMELINE_HUMAN_PROMPT
 )
-from models.timeline import WorldTimeline
+from models.worldbuilding.timeline import WorldTimeline
 from utils.logger import log
 
 

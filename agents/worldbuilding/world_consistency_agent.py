@@ -6,12 +6,12 @@ from typing import Dict, Any, List, Optional, Union
 import uuid
 import json
 
-from .base_agent import BaseAgent
-from prompts.consistency_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.consistency_prompt import (
     CONSISTENCY_SYSTEM_PROMPT,
     CONSISTENCY_HUMAN_PROMPT
 )
-from models.consistency import ConsistencyReport
+from models.worldbuilding.consistency import ConsistencyReport
 from utils.logger import log
 
 

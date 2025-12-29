@@ -5,12 +5,12 @@ World Fixer Agent
 from typing import Dict, Any, List, Optional, Union
 import uuid
 
-from .base_agent import BaseAgent
-from prompts.world_fixer_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.world_fixer_prompt import (
     WORLD_FIXER_SYSTEM_PROMPT,
     WORLD_FIXER_HUMAN_PROMPT
 )
-from models.world_fix import WorldFixResult
+from models.worldbuilding.world_fix import WorldFixResult
 from utils.logger import log
 
 

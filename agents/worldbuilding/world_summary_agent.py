@@ -6,12 +6,12 @@ from typing import Dict, Any, List, Optional, Union
 import uuid
 import json
 
-from .base_agent import BaseAgent
-from prompts.world_summary_prompt import (
+from agents.base_agent import BaseAgent
+from prompts.worldbuilding.world_summary_prompt import (
     WORLD_SUMMARY_SYSTEM_PROMPT,
     WORLD_SUMMARY_HUMAN_PROMPT
 )
-from models.world_summary import WorldSummary
+from models.worldbuilding.world_summary import WorldSummary
 from utils.logger import log
 
 
