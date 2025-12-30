@@ -69,10 +69,11 @@ images/
 *.webp
 
 # 测试
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
+pytest_cache/
+temp_chapters/
+test_data/
+test/
+tests/
 
 # Jupyter Notebook
 .ipynb_checkpoints
