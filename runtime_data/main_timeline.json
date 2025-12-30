@@ -1,0 +1,113 @@
+{
+  "timeline_id": "main_timeline",
+  "history": [
+    {
+      "id": "event_01",
+      "time": "约200年前",
+      "name": "精灵之戒的觉醒",
+      "desc": "精灵之戒被封存于星之丘学园的地下，成为连接现实与幻想的钥匙。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_02",
+      "time": "约150年前",
+      "name": "星之丘学园的建立",
+      "desc": "学园成为现实与幻想交汇的中心，精灵与人类的联系逐渐增强。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_03",
+      "time": "约100年前",
+      "name": "精灵守望者的成立",
+      "desc": "精灵守望者成为维持秩序的重要力量，确保精灵不会干扰学生的正常生活。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_04",
+      "time": "约50年前",
+      "name": "记忆之叶的发现",
+      "desc": "记忆之叶成为研究人类情感与精灵关系的重要工具，也被用于修复破碎的记忆。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_05",
+      "time": "约30年前",
+      "name": "梦境庭院的开启",
+      "desc": "梦境庭院成为精灵与学生交流的新场所，也是主角与精灵建立联系的关键地点。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_06",
+      "time": "约10年前",
+      "name": "心之钥匙的传说",
+      "desc": "心之钥匙成为许多学生追寻的目标，也成为了主角与精灵之间情感发展的关键道具。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_07",
+      "time": "故事开始前的冬季",
+      "name": "精灵林的封闭",
+      "desc": "精灵林成为学园中的禁忌之地，但也为后续主角与精灵的相遇埋下伏笔。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_08",
+      "time": "故事开始前的春季",
+      "name": "主角的入学",
+      "desc": "主角成为学园中少数能与多个精灵建立联系的学生，也引出了他内心的矛盾与成长。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "event_09",
+      "time": "故事开始前的春季",
+      "name": "核心冲突的萌芽",
+      "desc": "主角与某位精灵的关系开始恶化，为后续情感挣扎埋下伏笔。",
+      "type": "history",
+      "characters": []
+    },
+    {
+      "id": "evt_0001",
+      "time": "第1章第1天早晨",
+      "name": "初遇精灵",
+      "desc": "主角在精灵林中遇到了一位神秘的精灵",
+      "type": "story",
+      "characters": [
+        {
+          "character_id": "heroine_001",
+          "name": "艾莉丝",
+          "state": "好感度:陌生, 心情:警惕, 目标:守护秘密",
+          "driver_event": "被主角发现了精灵林的秘密"
+        },
+        {
+          "character_id": "protagonist",
+          "name": "主角",
+          "state": "心情:好奇, 目标:探索精灵林",
+          "driver_event": "偶然闯入精灵林，遇到了神秘少女"
+        }
+      ]
+    },
+    {
+      "id": "evt_0002",
+      "time": "第1章第1天中午",
+      "name": "午餐对话",
+      "desc": "与精灵同学在食堂进行了一次尴尬的对话",
+      "type": "story",
+      "characters": [
+        {
+          "character_id": "heroine_001",
+          "name": "艾莉丝",
+          "state": "好感度:略有好感, 心情:羞涩, 目标:了解主角",
+          "driver_event": "主角主动搭话，感受到了他的善意"
+        }
+      ]
+    }
+  ]
+}

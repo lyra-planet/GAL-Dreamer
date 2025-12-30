@@ -129,23 +129,34 @@ class BaseAgent(ABC):
         """
         response = response.strip()
 
-        # 首先尝试直接解析
-        result = safe_parse_json(response)
-        if result:
-            return result
+        # 移除markdown代码块标记
+        if response.startswith("```"):
+            # 找到第一个换行
+            newline_idx = response.find("\n")
+            if newline_idx != -1:
+                response = response[newline_idx + 1:]
+            # 移除结尾的```
+            if response.endswith("```"):
+                response = response[:-3]
+            response = response.strip()
 
-        # 尝试提取JSON部分
+        # 首先尝试直接解析
+        parsed = safe_parse_json(response)
+        if parsed is not None:
+            return parsed
+
+        # 尝试提取JSON部分（处理有额外文字的情况）
         start = response.find("{")
         end = response.rfind("}")
 
         if start == -1 or end == -1 or end <= start:
-            raise ValueError(f"响应中未找到有效的JSON格式")
+            raise ValueError(f"响应中未找到有效的JSON格式。响应内容: {response[:500]}...")
 
         json_str = response[start:end + 1]
         result = safe_parse_json(json_str)
 
-        if not result:
-            raise ValueError(f"JSON解析失败。原始响应: {response[:500]}...")
+        if result is None:
+            raise ValueError(f"JSON解析失败。响应内容: {response[:500]}...")
 
         return result
 

@@ -1,0 +1,476 @@
+{
+  "chapter": 11,
+  "chapter_id": "common_ch11",
+  "characters": [
+    {
+      "character_id": "protagonist_main",
+      "character_name": "星野翔太"
+    },
+    {
+      "character_id": "supporting_002",
+      "character_name": "海老原凯斗"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "午休的低语",
+      "location": "library_of_spirits",
+      "time_of_day": "午休",
+      "background": "一座隐藏在学园地下的古老图书馆，书架高耸入云，书籍散发微光，空气中漂浮着纸页，仿佛时间在此处凝固。",
+      "narration": "阳光从缝隙中漏进来，在书页间跳跃如萤火虫。我跟在凯斗身后，脚步轻得像是怕惊扰了什么——不是害怕，而是敬畏。这里藏着太多我们从未触及的秘密。",
+      "events": [
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "喂，别紧张嘛，我又不是要带你去见鬼。只是……有点东西想让你看看。",
+          "emotion": "轻松",
+          "action": "回头一笑，眼神却带着一丝认真"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "你确定这不是陷阱？毕竟上次你说‘研究’的时候，差点把我拉进精灵林的风暴里。",
+          "emotion": "调侃",
+          "action": "挠头，嘴角微扬"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "他说这话时语气轻松，但我注意到他手指无意识地摩挲着精灵之戒——那是他第一次见到我时就注意到的细节。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "那是因为你当时太莽撞啦！不过这次不一样，我可是找到了一本……嗯，叫《愿力的本质与平衡》的古籍。",
+          "emotion": "兴奋",
+          "action": "压低声音，眼睛亮晶晶的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "等等……你是说，这本书记载了怎么调整愿力？",
+          "emotion": "惊讶",
+          "action": "停下脚步，直视他"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "空气突然安静下来，只有纸张翻动的声音像心跳一样清晰。我能感觉到自己的呼吸变浅了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "对啊！你看这儿——‘愿力并非无限资源，它会因情感偏移而失衡，若不及时修复，灵契将断裂’。",
+          "emotion": "专注",
+          "action": "指着一页泛黄的羊皮纸，指尖微微颤抖"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "所以……我必须牺牲一部分感情才能维持稳定？",
+          "emotion": "困惑",
+          "action": "皱眉，双手握紧衣角"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻我才意识到，原来所谓的‘爱’并不是越多越好，而是要学会分配、理解、甚至舍弃。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "不只是舍弃，是你得明白每段关系的价值不同，就像水杯里的水，不能全倒给一个人。",
+          "emotion": "温柔",
+          "action": "轻轻拍了拍我的肩膀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可如果我真的做不到呢？如果我只想让她们都开心……",
+          "emotion": "痛苦",
+          "action": "低头，声音越来越小"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我说不出口的是：我不敢面对自己内心的偏爱，更不敢承认那些被忽视的瞬间正在悄悄伤害她们。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "那你现在就要学会面对它，翔太。不然你会失去所有人的信任。",
+          "emotion": "坚定",
+          "action": "目光灼热，仿佛能穿透我的伪装"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……我知道了。谢谢你，凯斗。",
+          "emotion": "感激",
+          "action": "抬头看他，眼中有一丝泪光"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光穿过书架间的缝隙，在我们之间洒下一道金色的桥。这一刻，我不再是一个逃避者，而是一个即将踏上真正成长之路的人。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "书页上的真相",
+      "location": "library_of_spirits",
+      "time_of_day": "午休",
+      "background": "书架间弥漫着旧纸的气息，偶尔有风吹过，带起一阵细碎的沙沙声，如同低语。",
+      "narration": "凯斗把那本书放在桌上，像是放下了一座山。我伸手翻开第一页，上面的文字竟自动发光，仿佛在回应我的心跳。",
+      "events": [
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "这本书其实是我爷爷留下的笔记，他曾是古代守护者的后裔，也是第一个发现愿力机制的人。",
+          "emotion": "怀念",
+          "action": "抚摸封面，眼神柔和"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "所以你是说……我不是唯一一个拥有这种能力的人？",
+          "emotion": "震惊",
+          "action": "猛地抬头"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这句话像一颗石子投入湖心，涟漪一圈圈扩散开来，让我第一次意识到：我不是怪物，也不是异类。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "当然不是！但你也得明白，这份力量意味着责任。你现在看到的每一句话，都是前人用血泪换来的教训。",
+          "emotion": "严肃",
+          "action": "站起身，走到窗边望着外面的树影"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "那他们是怎么做到平衡的？我连一个小飞翔都要花好几天才能回应她的情绪……",
+          "emotion": "沮丧",
+          "action": "靠在椅子上，手指揉着太阳穴"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我听见自己的声音在空荡的图书馆里回响，带着自责和无力感。原来真正的痛苦不是失去，而是明明想珍惜却不知如何下手。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "因为他们学会了倾听，而不是控制。你听到了吗？这本书在说话。",
+          "emotion": "神秘",
+          "action": "轻轻敲了敲书页"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "下一秒，书页自动翻动，一行字浮现出来：『愿力如风，不可强求；唯有真诚，方能共鸣』。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……这是什么意思？",
+          "emotion": "疑惑",
+          "action": "凑近书页，鼻尖几乎碰到纸面"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "意思是，你要做的不是平均分配，而是找到她们最需要的那一部分——哪怕只是一句‘我在’。",
+          "emotion": "温柔",
+          "action": "蹲下来，与我对视"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可如果我不知道她们真正需要什么呢？",
+          "emotion": "迷茫",
+          "action": "低下头，声音哽咽"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻我终于明白，所谓愿力平衡，并非计算多少，而是懂得用心去感受。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "那就去问啊！不是问她们想要什么，而是问你自己——你愿意为谁停留多久？",
+          "emotion": "鼓励",
+          "action": "伸出手，掌心朝上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……我会试试。",
+          "emotion": "坚定",
+          "action": "握住他的手，用力一点"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光洒在我们交握的手上，那一刻我知道，我不再孤单。因为我终于有了方向。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "沉默的启示",
+      "location": "library_of_spirits",
+      "time_of_day": "午休",
+      "background": "书架静默伫立，光影交错，仿佛整个世界只剩下我和凯斗的存在。",
+      "narration": "我们在书桌前坐了很久，没有说话。但那种沉默不再令人窒息，反而像一种默契的陪伴。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "凯斗看着我，眼里没有责备，只有期待。他知道我已经准备好迈出下一步。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "你知道吗？我小时候也以为只要努力就能赢，后来才发现，有时候‘放手’才是最大的勇气。",
+          "emotion": "感慨",
+          "action": "靠在椅背上，望向天花板"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "你是说……我也该学会放过自己？",
+          "emotion": "释然",
+          "action": "轻笑一声，眼角湿润"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我忽然想起EO那天对我说的话：‘你真的了解我吗？还是只是把我的愿望当作一种逃避？’——那时我没懂，现在明白了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "没错。你要做的不是变成完美的恋人，而是成为真实的自己。",
+          "emotion": "温和",
+          "action": "站起来，拍拍我的肩"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你，凯斗。如果不是你带我来这里，我可能永远都不会知道这些。",
+          "emotion": "感动",
+          "action": "站起身，拥抱他"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "他没躲开，反而轻轻回抱了一下。那一刻，我感受到的不是友情，而是某种更深的东西——一种共担命运的羁绊。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "别谢得太早，接下来的路可不好走。但只要你记得今天的心情，你就不会迷路。",
+          "emotion": "郑重",
+          "action": "松开怀抱，眼神坚定"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯。我会记住的。",
+          "emotion": "认真",
+          "action": "点头，转身走向门口"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "走出图书馆时，阳光正好洒在我脸上。我不再害怕未来的挑战，因为我已经找到了答案。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "supporting_002",
+          "content": "对了，明天下午三点，梦庭院见。我要陪你一起看镜子。",
+          "emotion": "狡黠",
+          "action": "眨眨眼，指了指我的胸口"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "你这家伙……居然还惦记着这事。",
+          "emotion": "无奈",
+          "action": "笑着摇头"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我一边走一边想着，或许这就是成长吧——不是变得完美，而是敢于面对自己的不完美。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "下次见面，我想先去找莉拉聊聊。",
+          "emotion": "温柔",
+          "action": "低声自语，步伐轻快"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我知道，她一直在等我，只是我一直不敢去看她的眼睛。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "归途的思考",
+      "location": "library_of_spirits",
+      "time_of_day": "午休",
+      "background": "书架间光影斑驳，空气里飘着淡淡的墨香，仿佛整座图书馆都在为我们送行。",
+      "narration": "离开图书馆的路上，我没有急着回去，而是坐在台阶上，看着远处的教学楼。阳光落在脸上，暖洋洋的，像一场久违的拥抱。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我想起了小飞翔的笑容，EO的眼神，Rebuild的沉默，还有莉拉藏在阴影中的身影。她们都不是简单的角色，而是我内心的一部分。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "原来真正的愿力，不是来自外部，而是来自内心的选择。",
+          "emotion": "顿悟",
+          "action": "闭上眼，深深吸气"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我终于明白，我不需要用全部的爱去填满她们，只需要用真心去回应她们。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "也许这才是灵契的意义：不是绑定，而是自由。",
+          "emotion": "平静",
+          "action": "睁开眼，望向天空"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "风轻轻吹过，带着树叶的清香。我知道，接下来的日子不会轻松，但我已经准备好了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "再见了，图书馆。谢谢你教会我最重要的事。",
+          "emotion": "感激",
+          "action": "站起身，整理衣服"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我朝着教室的方向走去，脚步比以往任何时候都要坚定。因为这一次，我不再是那个躲在角落里的男孩。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我是星野翔太，一个愿意为爱负责的男人。",
+          "emotion": "自信",
+          "action": "挺直腰板，微笑前行"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "而这一切，才刚刚开始。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "莉拉，我来了。",
+          "emotion": "温柔",
+          "action": "低声呢喃，加快步伐"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光照在我的脸上，温暖又明亮。我知道，无论前方有多少风雨，我都不会再逃。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "因为我终于学会了——如何成为一个值得被爱的人。",
+          "emotion": "坚定",
+          "action": "嘴角扬起，走进教学楼"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这一刻，我听见了自己的心跳，清晰有力，像一首属于青春的歌。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们，陪我走到这里。",
+          "emotion": "感恩",
+          "action": "对着天空轻声说道"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "然后，我走进教室，准备迎接新的战斗。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    }
+  ]
+}

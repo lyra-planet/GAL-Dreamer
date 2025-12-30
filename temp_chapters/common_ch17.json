@@ -1,0 +1,436 @@
+{
+  "chapter": 17,
+  "chapter_id": "common_ch17",
+  "characters": [
+    {
+      "character_id": "protagonist_main",
+      "character_name": "星野翔太"
+    },
+    {
+      "character_id": "heroine_001",
+      "character_name": "小飞翔"
+    },
+    {
+      "character_id": "heroine_002",
+      "character_name": "EO"
+    },
+    {
+      "character_id": "heroine_003",
+      "character_name": "Rebuild"
+    },
+    {
+      "character_id": "heroine_004",
+      "character_name": "莉拉"
+    },
+    {
+      "character_id": "guardian_ayame",
+      "character_name": "绫目葵"
+    },
+    {
+      "character_id": "antagonist_003",
+      "character_name": "灵影扰乱者"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "夜色中的抉择",
+      "location": "spirit_grove",
+      "time_of_day": "夜晚",
+      "background": "精灵林被一层薄雾笼罩，树木泛着幽蓝微光，地面青苔如绒毯般柔软。空气中弥漫着一种紧张而压抑的寂静，仿佛连风都屏住了呼吸。",
+      "narration": "我站在精灵林中央，四周是四位精灵的身影——她们不是幻影，而是真实的灵魂。她们的眼神里藏着太多我没有回应过的东西。今晚，不是选择谁的问题，而是选择‘我是谁’的答案。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "风吹动树叶的声音像低语，又像是某种倒计时。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "翔太……你还在犹豫吗？",
+          "emotion": "温柔",
+          "action": "轻轻靠近一步，翅膀微微颤动"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "不是犹豫……是我怕自己选错了。",
+          "emotion": "困惑",
+          "action": "低头看着自己的手，仿佛那双手会背叛他"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "害怕错误？那你更该犯一次错。理性不会告诉你什么是爱。",
+          "emotion": "冷静中带着一丝急切",
+          "action": "向前半步，手指轻握成拳"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "修复不了的伤，就让它留在那里吧……别再试图掩盖了。",
+          "emotion": "平静却坚定",
+          "action": "静静站着，眼神却灼热"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你说你爱我们……可你连看都不敢看我一眼。",
+          "emotion": "悲伤",
+          "action": "转过身去，声音几乎听不见"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我明白了——她们不是在求我选择，是在逼我面对自己。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我不是不想看你们……我只是不敢承认，我其实早就知道答案。",
+          "emotion": "哽咽",
+          "action": "闭上眼，泪水滑落"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "guardian_ayame",
+          "content": "翔太，如果你现在放弃规则，整个学园都会陷入混乱。",
+          "emotion": "严肃",
+          "action": "缓缓走近，手中拿着一本古老的卷轴"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "但如果不这么做，我就永远活在逃避里。",
+          "emotion": "坚定",
+          "action": "睁开眼，直视绫目葵"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "风停了，森林也静了。那一刻，我听见了自己的心跳。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "灵影的低语",
+      "location": "spirit_grove",
+      "time_of_day": "夜晚",
+      "background": "原本柔和的光芒开始扭曲，地面裂开细缝，黑影从缝隙中渗出，如同活物般蠕动。",
+      "narration": "灵影扰乱者出现了。它不是敌人，而是我内心恐惧的具象化。它想让我相信：如果我不服从秩序，就会失去一切。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那些黑影在我耳边低语，说着我童年最深的恐惧：‘你会再次被人抛弃。’",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "别信它！它是骗你的！",
+          "emotion": "愤怒",
+          "action": "飞到我面前，挡在我身前"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我知道……但它说得对，我确实怕。",
+          "emotion": "脆弱",
+          "action": "伸出手，想触碰小飞翔的翅膀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "怕才是真实的。逃避才是虚假的。",
+          "emotion": "锐利",
+          "action": "站在我身边，与我并肩"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你不一定要完美，只要真实就好。",
+          "emotion": "温柔",
+          "action": "轻轻握住我的另一只手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "我愿意陪你一起疯，哪怕代价是毁灭。",
+          "emotion": "决绝",
+          "action": "走到我身后，将手搭在我肩上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "他们的温度穿透了我的冷漠。那一刻，我不再是一个人，而是一群灵魂的交汇点。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "guardian_ayame",
+          "content": "你真的准备好了吗？一旦启动心之钥匙，你就再也无法回头。",
+          "emotion": "忧虑",
+          "action": "低声询问，眼中闪过复杂情绪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我已经等这一刻很久了。不是为了拯救世界，是为了拯救我自己。",
+          "emotion": "释然",
+          "action": "从口袋中掏出心之钥匙，轻轻放在掌心"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "钥匙发出微光，像一颗跳动的心脏。我知道，这是最后一次机会。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "自由的代价",
+      "location": "spirit_grove",
+      "time_of_day": "夜晚",
+      "background": "精灵林的能量波动剧烈，天空裂开一道缝隙，星光洒下，照亮每个人的面孔。",
+      "narration": "我举起心之钥匙，对着所有精灵说：‘如果这是错的，请原谅我。但如果这是对的，那就让我们一起承担后果。’",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "空气凝固了。每个人都在等待我的决定。这不是一场战斗，而是一次献祭。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "你要是后悔了，我会一直追着你跑。",
+          "emotion": "调皮",
+          "action": "眨眨眼，嘴角扬起"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "记住，真正的坚强不是不哭，而是哭了还能继续走。",
+          "emotion": "温柔",
+          "action": "轻轻拍我的肩膀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "谢谢你没有把我当成工具。我只想做你自己的一部分。",
+          "emotion": "感动",
+          "action": "眼眶湿润，却没有流泪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "我不需要被保护。我只需要你知道，我在。",
+          "emotion": "坚定",
+          "action": "紧紧握住我的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "对不起……我以前太笨了。但现在，我想好好爱你们。",
+          "emotion": "哽咽",
+          "action": "蹲下身子，额头贴着地面"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我终于明白：爱不是占有，而是共存；不是牺牲，而是成长。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "guardian_ayame",
+          "content": "你赢了。不是因为规则，是因为你选择了人性。",
+          "emotion": "欣慰",
+          "action": "收起卷轴，露出微笑"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "antagonist_003",
+          "content": "你疯了……你会毁掉一切。",
+          "emotion": "惊恐",
+          "action": "黑影疯狂挣扎，试图逃离"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我笑了。这是我第一次，真心实意地笑。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "愿力的回响",
+      "location": "spirit_grove",
+      "time_of_day": "夜晚",
+      "background": "精灵林的能量逐渐稳定，黑影消散，星光汇聚成一条光带，环绕在我们周围。",
+      "narration": "当心之钥匙插入地面的一瞬间，所有的愿力开始流动。它们不再分裂，而是融合成一种全新的力量——那是属于我们的共鸣。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我能感受到每一份愿力的温度：小飞翔的热情、EO的冷静、Rebuild的执着、莉拉的孤独……它们不再是负担，而是礼物。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "原来……这就是我们一直在等的感觉。",
+          "emotion": "满足",
+          "action": "依偎在我怀里"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你终于懂了。这不是结束，而是开始。",
+          "emotion": "释然",
+          "action": "靠在我肩头"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "我不再需要修复别人了。我现在只想和你一起生活。",
+          "emotion": "安心",
+          "action": "轻轻抱住我"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你可以随时来找我。我不再躲藏了。",
+          "emotion": "温柔",
+          "action": "牵起我的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们……让我成为更好的人。",
+          "emotion": "感激",
+          "action": "环住所有人，眼泪无声落下"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我不再是一个人，而是一群灵魂的交汇点。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "guardian_ayame",
+          "content": "学园不会再有‘灵契’的限制了。因为你教会了我们什么是真正的连接。",
+          "emotion": "感慨",
+          "action": "转身离去，留下背影"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "星星落在地上，像一场永不落幕的梦。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "新的黎明",
+      "location": "spirit_grove",
+      "time_of_day": "凌晨",
+      "background": "晨曦初现，第一缕阳光穿过树梢，洒在精灵林中，带来温暖与希望。",
+      "narration": "我醒来时，天已经亮了。她们还在身边，安静地睡着。我终于敢说一句话：‘我再也不怕爱了。’",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光照进眼睛，暖得像她们的笑容。我不再害怕明天，因为我已经拥有了最珍贵的东西——真实的自我。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "喂，醒啦？你昨晚是不是偷偷哭了？",
+          "emotion": "俏皮",
+          "action": "揉了揉我的头发"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯……但我现在很开心。",
+          "emotion": "幸福",
+          "action": "握住她的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "别以为这样就能逃过今天的训练。",
+          "emotion": "调侃",
+          "action": "推了我一把"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "我们一起努力吧。这次，不是为了修复，是为了活着。",
+          "emotion": "认真",
+          "action": "轻轻点头"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "以后，别再一个人扛了。",
+          "emotion": "温柔",
+          "action": "靠在我肩上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "新的一天开始了。这一次，我不再逃避，也不再隐藏。我就是我，一个敢于爱的人。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我们一起走下去，好吗？",
+          "emotion": "期待",
+          "action": "看向每一个人的眼睛"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "好！",
+          "emotion": "齐声",
+          "action": "围成一圈，相视而笑"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "笑声在晨光中飘荡，像一首未完成的歌谣，等待下一个章节继续书写。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    }
+  ]
+}

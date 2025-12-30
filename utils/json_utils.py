@@ -18,13 +18,16 @@ def safe_parse_json(json_str: str) -> Dict[str, Any]:
         json_str: JSON字符串
 
     Returns:
-        解析后的字典,失败返回空字典
+        解析后的字典,失败返回None
     """
     try:
         return json.loads(json_str)
     except json.JSONDecodeError as e:
-        log.error(f"JSON解析失败: {e}")
-        return {}
+        log.debug(f"JSON解析失败: {e}")
+        return None
+    except Exception as e:
+        log.debug(f"JSON解析异常: {e}")
+        return None
 
 
 def validate_and_convert(data: Dict[str, Any], model_class: Type[T]) -> T:

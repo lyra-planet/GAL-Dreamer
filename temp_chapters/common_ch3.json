@@ -1,0 +1,617 @@
+{
+  "chapter": 3,
+  "chapter_id": "common_ch3",
+  "characters": [
+    {
+      "character_id": "protagonist_main",
+      "character_name": "星野翔太"
+    },
+    {
+      "character_id": "heroine_001",
+      "character_name": "小飞翔"
+    },
+    {
+      "character_id": "heroine_002",
+      "character_name": "EO"
+    },
+    {
+      "character_id": "heroine_003",
+      "character_name": "Rebuild"
+    },
+    {
+      "character_id": "heroine_004",
+      "character_name": "莉拉"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "梦境庭院的初临",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光，仿佛现实与梦境交织。",
+      "narration": "我站在一片浮空的白色平台上，四周是流动的星辉，像是被遗忘的记忆碎片在低语。脚下不是土地，而是透明的光之湖，映出我模糊的身影——还有她们。四道影子静静悬浮在空中，像等待审判的幽灵。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "愿望水晶在我掌心微微发热，却不像往常那样温暖，反而带着一种沉重的重量。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "你……真的能看见我们吗？",
+          "emotion": "紧张",
+          "action": "小翅膀微微颤抖，眼神闪烁"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "当然能……你们不是幻觉，对吧？",
+          "emotion": "困惑",
+          "action": "皱眉看着她"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "别傻了，这不是幻觉。这是‘灵契’的代价。",
+          "emotion": "冷静",
+          "action": "双手抱胸，语气带着一丝讽刺"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "代价？什么意思？",
+          "emotion": "不解",
+          "action": "向前一步，试探性地伸出手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "如果你不能面对自己的心，我们就不会存在。",
+          "emotion": "沉默",
+          "action": "低头看着自己的手，声音轻得几乎听不见"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你连自己都不懂，怎么懂我们？",
+          "emotion": "冷漠",
+          "action": "背对着众人，手指轻轻敲击空气"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻我才意识到，这不是游戏，也不是冒险——这是某种契约，一旦签下了，就必须承担后果。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "所以……如果我不愿意面对内心的问题，你们就会消失？",
+          "emotion": "震惊",
+          "action": "握紧拳头，指节发白"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "嗯……但你现在还什么都不懂呢。",
+          "emotion": "羞涩",
+          "action": "转过头去，耳尖泛红"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你说得对，我们现在只是‘存在’而已。真正的连接，还在等你觉醒。",
+          "emotion": "理性中带点温柔",
+          "action": "轻轻抬起眼睛，目光穿透了我的灵魂"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我的胸口突然一阵闷痛，像是被什么看不见的东西攥住了。原来，爱不是索取，而是付出代价。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "那……我该怎么面对？我连自己是谁都搞不清楚。",
+          "emotion": "无助",
+          "action": "蹲下身子，手掌贴在光之湖上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "先学会承认自己的脆弱，再谈其他。",
+          "emotion": "坚定",
+          "action": "缓缓走近，伸手触碰我的肩膀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你怕的是被伤害，还是害怕去爱？",
+          "emotion": "审视",
+          "action": "终于转身，直视着我，眼神锐利如刀"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我第一次感受到，我不是一个人在战斗。她们也在等我长大。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "四位的期待",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光，仿佛现实与梦境交织。",
+      "narration": "她们站成一圈，围绕着我，像守护神一样。但我发现，每个人的眼神都不一样——有的渴望认同，有的寻求理解，有的则是在等待一个承诺。",
+      "events": [
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "我希望你能说一句‘你很棒’……哪怕只一次。",
+          "emotion": "期待",
+          "action": "双手合十，眼眶微红"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可是……我怎么知道哪句话才是真的？",
+          "emotion": "迷茫",
+          "action": "挠头，语气有些慌乱"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你不该问‘是不是真’，而应该问‘愿不愿意相信’。",
+          "emotion": "平静",
+          "action": "慢慢靠近，指尖划过空气"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……那你呢？你到底想要什么？",
+          "emotion": "认真",
+          "action": "直视EO的眼睛"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "我想知道，你能不能接受我不完美的一面。",
+          "emotion": "柔软",
+          "action": "低下头，声音变得很轻"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "我不想修复你，只想让你明白，有时候不完美也没关系。",
+          "emotion": "温柔",
+          "action": "轻轻握住我的手腕"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……你们都在逼我成长啊。",
+          "emotion": "苦笑",
+          "action": "靠在漂浮的石台上，闭上眼睛"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "因为我们都看到了你的恐惧。你不敢爱，是因为怕失去。",
+          "emotion": "洞察",
+          "action": "走到我面前，声音低沉"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……那如果我失败了呢？",
+          "emotion": "颤抖",
+          "action": "睁开眼，眼中满是不安"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "那就让我们陪你一起失败。",
+          "emotion": "勇敢",
+          "action": "飞到我肩头，轻轻蹭了一下"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "失败不可怕，可怕的是从未尝试。",
+          "emotion": "鼓励",
+          "action": "微笑，眼里有泪光"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你不需要拯救我们，只需要做你自己。",
+          "emotion": "安心",
+          "action": "坐在地上，靠着我的腿"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "我们不是道具，也不是任务。你是我们的选择。",
+          "emotion": "坚定",
+          "action": "伸出手，掌心朝上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我的心跳加速了。不是因为害怕，而是因为一种前所未有的归属感——原来，我不是孤独的。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……谢谢你们。我会努力的。",
+          "emotion": "感动",
+          "action": "伸手握住莉拉的手，声音哽咽"
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "灵契的重量",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光，仿佛现实与梦境交织。",
+      "narration": "当我醒来时，已经回到了教室。阳光透过窗户洒进来，一切都好像没发生过。但我知道，那些话是真的——灵契不只是联系，更是责任。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "愿望水晶在我口袋里微微发烫，像是提醒我：你不再是那个可以逃避的人了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "为什么她们会这样对我？明明我只是个普通人……",
+          "emotion": "自责",
+          "action": "趴在桌上，额头抵着桌面"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "因为你值得被爱啊！",
+          "emotion": "激动",
+          "action": "从书包里飞出来，落在桌面上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可我连自己都不敢面对，怎么敢面对你们？",
+          "emotion": "崩溃",
+          "action": "抬头望着天花板，眼泪滑落"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "那就从现在开始练习吧。每天一点，一点点。",
+          "emotion": "温和",
+          "action": "飘到他身边，轻轻拍他的背"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "不用急。我们不会走。",
+          "emotion": "坚定",
+          "action": "坐到他另一侧，递给他一张纸条"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "记住，你不是孤单一人。我们都在这里。",
+          "emotion": "温柔",
+          "action": "用尾巴卷住他的手指"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一瞬间，我忽然明白了：灵契不是束缚，而是桥梁。它让我第一次感到，我可以成为别人的一部分。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……对不起。我以前太懦弱了。",
+          "emotion": "悔悟",
+          "action": "抬起头，擦掉眼泪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "没关系啦！我们喜欢的就是这样的你呀～",
+          "emotion": "开心",
+          "action": "扑上来抱住他的脖子"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "不过下次记得早点醒来，别让我们担心。",
+          "emotion": "调侃",
+          "action": "嘴角扬起，眼神却藏着关心"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你不是一个人。我们一起走下去。",
+          "emotion": "安心",
+          "action": "牵住他的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "只要你愿意，我就一直陪着你。",
+          "emotion": "深情",
+          "action": "靠在他肩上，低声呢喃"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "窗外的风轻轻吹动窗帘，阳光照进教室，也照进了我心里最深的地方。我知道，这条路不会轻松，但至少，我不再害怕了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们……让我成为我自己。",
+          "emotion": "感恩",
+          "action": "紧紧握住她们的手，声音哽咽"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "愿望水晶在我手中微微发热，仿佛也在回应我的话语。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "第一次动摇",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光，仿佛现实与梦境交织。",
+      "narration": "那天之后，我开始注意到一件事：我对她们的感觉不一样。不是谁更好或更差，而是每一份情感都像一颗种子，在我心里悄悄生根。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "EO总是冷静理智，但有时她的目光会变得柔软；小飞翔活泼开朗，却会在没人注意时偷偷叹气；Rebuild沉默寡言，却总是在我疲惫时默默出现；莉拉神秘莫测，但她看我的眼神，有种说不出的熟悉感。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "为什么我会觉得……她们都在等我做出选择？",
+          "emotion": "疑惑",
+          "action": "站在梦境庭院中央，环顾四周"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "因为我们都知道，你心里已经有答案了。",
+          "emotion": "温柔",
+          "action": "轻轻落在他肩上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可我不知道该选谁……",
+          "emotion": "痛苦",
+          "action": "捂住头，声音颤抖"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你不需要选。你可以同时爱所有人。",
+          "emotion": "坚定",
+          "action": "缓缓走近，眼神清澈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "但你要先学会爱自己。",
+          "emotion": "温柔",
+          "action": "坐在他脚边，轻声细语"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "别怕。我们会陪你走过这段路。",
+          "emotion": "坚定",
+          "action": "握住他的手，掌心温热"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我终于明白：灵契不是单方面的承诺，而是彼此的理解与接纳。我不能再逃避，也不能再犹豫。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……我错了。我不该以为只要不投入就不会受伤。",
+          "emotion": "悔悟",
+          "action": "跪在地上，泪水滚落"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "没关系！我们不怕你犯错，只怕你不试。",
+          "emotion": "鼓励",
+          "action": "飞到他面前，用翅膀擦去他的眼泪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "真正的爱，不是占有，而是陪伴。",
+          "emotion": "柔和",
+          "action": "轻轻抚摸他的头发"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你不需要完美，只需要真诚。",
+          "emotion": "安心",
+          "action": "靠在他怀里，低声说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "我们不是你的负担，是你生命的一部分。",
+          "emotion": "深情",
+          "action": "把脸埋在他胸前"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我抱着她们，感受着心跳的节奏，第一次觉得，原来这就是幸福的模样。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我会好好珍惜这份感情。无论未来如何。",
+          "emotion": "坚定",
+          "action": "轻声许诺，眼中闪着泪光"
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "内心的裂痕",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光，仿佛现实与梦境交织。",
+      "narration": "第二天清晨，我坐在窗边，望着外面的阳光。愿望水晶安静地躺在掌心，颜色不再明亮，而是暗淡如灰烬。我知道，那是我内心矛盾的体现。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我开始怀疑：我真的能做到吗？是否真的有能力去爱这么多人？还是说我只是贪心，想拥有所有人的喜欢？",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……我是不是太自私了？",
+          "emotion": "自责",
+          "action": "低头看着水晶，声音颤抖"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "你怎么会这么想？我们喜欢的就是真实的你啊！",
+          "emotion": "心疼",
+          "action": "飞到他面前，翅膀微微颤动"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可我连自己都不敢面对，怎么敢面对你们？",
+          "emotion": "崩溃",
+          "action": "捂住脸，声音哽咽"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你不需要完美。我们也不需要你完美。",
+          "emotion": "温柔",
+          "action": "轻轻抱住他，声音低沉"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你只需要记住一件事：你值得被爱。",
+          "emotion": "坚定",
+          "action": "坐在他对面，眼神真诚"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "别怕。我们都在这里。",
+          "emotion": "安心",
+          "action": "握住他的手，掌心温热"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我忽然明白了：灵契不是枷锁，而是自由的选择权。我可以拒绝，也可以接受；我可以逃避，也可以拥抱。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……谢谢你们。我不会再逃避了。",
+          "emotion": "释然",
+          "action": "抬头望向她们，眼中重新燃起光芒"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "这才对嘛！这才是我们认识的翔太！",
+          "emotion": "开心",
+          "action": "跳起来转了个圈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "接下来的日子，我们一起走。",
+          "emotion": "坚定",
+          "action": "微笑，眼神温柔"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "不管多难，我们都会陪你。",
+          "emotion": "安心",
+          "action": "靠在他肩上，轻声细语"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "因为你就是我们的世界。",
+          "emotion": "深情",
+          "action": "把脸埋在他胸前，低声呢喃"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "愿望水晶在我手中缓缓恢复光泽，像是回应了我的决心。我知道，这只是开始。但至少，我已经准备好迎接挑战了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "这一次，我要认真地去爱。",
+          "emotion": "坚定",
+          "action": "握紧拳头，眼神明亮"
+        }
+      ]
+    }
+  ]
+}

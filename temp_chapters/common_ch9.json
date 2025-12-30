@@ -1,0 +1,623 @@
+{
+  "chapter": 9,
+  "chapter_id": "common_ch9",
+  "characters": [
+    {
+      "character_id": "protagonist_main",
+      "character_name": "星野翔太"
+    },
+    {
+      "character_id": "heroine_002",
+      "character_name": "EO"
+    },
+    {
+      "character_id": "heroine_003",
+      "character_name": "Rebuild"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "夜之庭的沉默",
+      "location": "dream_courtyard",
+      "time_of_day": "夜晚",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "梦境庭院的夜色比任何现实都更真实。我站在那片由星光铺就的地面上，心跳声在寂静中格外清晰——仿佛整个世界只剩我和这扇门。",
+      "events": [
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……真的能打开吗？心之钥匙……它不是用来锁住我的吧？",
+          "emotion": "犹豫",
+          "action": "手指紧紧攥着那把银色钥匙，指节泛白"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "风轻轻拂过，带着一种不属于人间的凉意。EO站在不远处，双手抱臂，眼神冷得像冰。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "你问这个做什么？你以为自己是第一个试图打开心门的人吗？",
+          "emotion": "讽刺",
+          "action": "嘴角微扬，却毫无笑意"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我不是……我只是怕，如果打开了，会看到我不想看的东西。",
+          "emotion": "不安",
+          "action": "低头看着地面，不敢直视她的眼睛"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "Rebuild没有说话，只是静静站着，像是随时准备离开。她的影子被星光拉得很长，像一道无法愈合的伤口。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "你害怕的是你自己，不是门。",
+          "emotion": "平静",
+          "action": "声音轻得几乎听不见，但每个字都像钉子一样扎进我心里"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可我连自己都不懂……为什么我会对你们每个人都有感觉？明明我根本不知道该怎么回应。",
+          "emotion": "痛苦",
+          "action": "握紧拳头，指甲嵌进掌心"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我突然意识到，原来我不是在逃避她们，而是在逃避我自己。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "所以你就选择什么都不做？假装看不见我们的眼泪？",
+          "emotion": "愤怒",
+          "action": "向前一步，声音陡然提高"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我不是不想回应……我是怕一旦回应了，就会失去你们。",
+          "emotion": "脆弱",
+          "action": "声音颤抖，眼眶微微发热"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我说不出口的是：我怕再次受伤，就像小时候父母离婚那天一样——那种被抛弃的感觉，至今还在我心里生根。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "你知道吗？我修复过无数东西，却修不好自己的心。",
+          "emotion": "悲伤",
+          "action": "缓缓抬起手，指尖触碰到空气中的光点，仿佛那是她唯一能抓住的真实"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "……那你为什么还要留下？为什么不干脆消失？",
+          "emotion": "困惑",
+          "action": "抬头看向她，眼里有泪光闪烁"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "她没回答，只是转过身，走向庭院深处的一片黑暗。我知道，那是我永远走不到的地方。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "你听好了，星野翔太——如果你连面对自己的勇气都没有，那就别谈什么爱。",
+          "emotion": "严厉",
+          "action": "转身离去前最后看了我一眼，眼神复杂得让我喘不过气"
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "钥匙与裂痕",
+      "location": "dream_courtyard",
+      "time_of_day": "夜晚",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "我把心之钥匙插进那道无形的门缝里，用力转动。一阵刺痛从指尖蔓延到胸口，像是某种记忆正在撕裂。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "门没有开，反而裂开了一道细小的缝隙，里面涌出的不是光，而是无数破碎的画面——我曾忽略的、压抑的、藏起来的情绪。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "不……不要！这不是我想看到的！",
+          "emotion": "惊恐",
+          "action": "捂住耳朵，蜷缩在地上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "画面中出现了小飞翔的笑容，EO的背影，Rebuild的手指在修补一个破旧的玩具熊，还有莉拉独自坐在窗边的样子——他们都在等我，而我却一直在逃。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "你看到了吗？这就是你所谓的‘不想伤害’？你伤害的从来不是别人，是你自己。",
+          "emotion": "悲悯",
+          "action": "蹲下来，轻轻握住我的手腕"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我……我真的不知道该怎么办……",
+          "emotion": "崩溃",
+          "action": "眼泪终于落下，声音哽咽"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻我才明白，真正的成长不是变得完美，而是承认自己的不完美，并愿意为此承担后果。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "有时候，允许自己脆弱，才是最大的力量。",
+          "emotion": "温柔",
+          "action": "走到我身边，把手放在我的肩上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "可是……我还是怕……",
+          "emotion": "无助",
+          "action": "抬起头，泪水模糊了视线"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "门依旧关着，但我第一次感到，那不是一道墙，而是一个起点。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "那就从现在开始学着不怕吧。我们不会跑掉。",
+          "emotion": "坚定",
+          "action": "轻轻擦去我的眼泪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "只要你愿意开门，我们就陪你一起进去。",
+          "emotion": "安心",
+          "action": "微笑，第一次露出完整的笑容"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我不知道明天会发生什么，但至少今晚，我不再是一个人。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们……我会努力的。",
+          "emotion": "希望",
+          "action": "站起身，重新握紧心之钥匙"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "梦境庭院的星光变得更亮了，仿佛也在为我鼓掌。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "别急着谢我们，先试着打开门再说。",
+          "emotion": "调侃",
+          "action": "眨眨眼，转身走向远处的光柱"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "这次，我不会再逃了。",
+          "emotion": "决心",
+          "action": "深吸一口气，将钥匙插入更深的位置"
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "门后的回响",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "这一次，我没有再退缩。心之钥匙旋转时发出细微的嗡鸣，像是某种古老的语言在低语。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "门缓缓开启，不是一扇门，而是一条通往内心的隧道。我听见了他们的声音——不是来自外界，而是来自我心底最深的地方。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "你终于肯面对自己了？",
+          "emotion": "欣慰",
+          "action": "站在门口，脸上带着少见的柔和表情"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "以前我以为爱是一种负担，但现在我知道……它是连接我们的桥梁。",
+          "emotion": "释然",
+          "action": "迈步走进门内，脚步坚定"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "Rebuild跟在我身后，她的身影不再孤单，而是温暖的存在。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "你终于明白了，我们不是要你拯救我们，而是想让你理解你自己。",
+          "emotion": "感动",
+          "action": "轻轻抱住我，像拥抱一个失散多年的亲人"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "对不起……我一直太自私了。",
+          "emotion": "愧疚",
+          "action": "低声道歉，声音带着颤抖"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这一刻，我不再害怕未来，也不再逃避过去。因为我终于知道，真正的爱，是从接纳自己开始的。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "记住，这不是终点，而是新的起点。",
+          "emotion": "鼓励",
+          "action": "牵起我的手，带我继续前行"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯……我们一起走下去。",
+          "emotion": "坚定",
+          "action": "握紧她的手，感受那份真实的温度"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "梦境庭院的星光变得更加明亮，仿佛整个世界都在为我们庆祝。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "欢迎回来，翔太。",
+          "emotion": "温柔",
+          "action": "靠在我肩膀上，闭上眼睛"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我知道，这场旅程才刚刚开始。但这一次，我不再害怕。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们……让我成为更好的自己。",
+          "emotion": "感恩",
+          "action": "望着她们，眼中满是真诚"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "门后不再是黑暗，而是属于我们的光明。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "快走吧，别浪费时间在这儿发呆。",
+          "emotion": "俏皮",
+          "action": "笑着推了我一把"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "好！这次一定不会再逃了！",
+          "emotion": "雀跃",
+          "action": "奔跑起来，笑声洒满整个梦境庭院"
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "未完待续",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "当我走出梦境庭院时，天边已经泛起了鱼肚白。我知道，新的一天即将来临，而我也准备好迎接它了。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "EO和Rebuild并肩站在我身旁，没有说话，却给了我最深的信任。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "接下来的日子，你会更累，也会更幸福。",
+          "emotion": "认真",
+          "action": "望向远方，眼神坚定"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "只要你还在路上，我们就不会离开。",
+          "emotion": "温柔",
+          "action": "轻轻点头"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我相信你们……也相信我自己。",
+          "emotion": "自信",
+          "action": "伸出手，三人手掌相叠"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我终于明白，爱不是占有，而是陪伴；不是逃避，而是面对。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "这才像个样子。",
+          "emotion": "满意",
+          "action": "拍了拍我的肩"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "那么，我们出发吧。",
+          "emotion": "期待",
+          "action": "迈出第一步，阳光洒在脸上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "梦醒了，但故事还没结束。因为真正的成长，永远在路上。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "走吧，未来的路很长。",
+          "emotion": "温柔",
+          "action": "微笑着走在前面"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯，我们一起。",
+          "emotion": "坚定",
+          "action": "追上去，脚步轻快"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "清晨的第一缕光，照亮了我的脸庞。我知道，这是属于我的新生。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "喂，别愣着，太阳都要晒屁股啦！",
+          "emotion": "调侃",
+          "action": "笑着拉住我的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "好好好，我这就走！",
+          "emotion": "雀跃",
+          "action": "跟着她一起奔跑，笑声洒满整个黎明"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "心之门开了，而我的心，终于完整了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "这才是真正的我们。",
+          "emotion": "满足",
+          "action": "看着前方，眼中闪着光"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你，让我成为更好的自己。",
+          "emotion": "感激",
+          "action": "回头望了一眼梦境庭院，然后转身向前"
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "觉醒的序章",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "梦境庭院的夜色渐渐淡去，取而代之的是晨曦初现的微光。我知道，这不是结束，而是一个全新的开始。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我站在那里，不再害怕未来的不确定，也不再逃避过去的伤痕。因为我知道，无论发生什么，她们都会陪在我身边。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "你现在终于明白了，爱不是负担，而是责任。",
+          "emotion": "成熟",
+          "action": "靠在我肩上，语气平静却不容置疑"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "你不需要完美，只需要真实。",
+          "emotion": "温柔",
+          "action": "轻轻握住我的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我学会了，不再逃避，也不再伪装。",
+          "emotion": "坚定",
+          "action": "抬头望向天空，阳光洒在脸上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我终于明白，真正的成长，是从接受自己的脆弱开始的。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "记住，我们会一直在这里。",
+          "emotion": "承诺",
+          "action": "指向远方，眼神温柔"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我也不会让你们失望。",
+          "emotion": "郑重",
+          "action": "握紧拳头，目光坚定"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "梦境庭院的星光逐渐隐去，但它留下的印记，将永远铭刻在我的心里。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "走吧，该回家了。",
+          "emotion": "安心",
+          "action": "轻轻一笑，牵起我的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯，我们一起。",
+          "emotion": "幸福",
+          "action": "迈步向前，脚步轻盈"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这一夜，我学会了如何爱，也学会了如何被爱。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "EO",
+          "content": "别忘了，下次再来时，要记得带早餐。",
+          "emotion": "调皮",
+          "action": "笑着推了我一把"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "一定！",
+          "emotion": "雀跃",
+          "action": "大笑起来，奔跑在晨光之中"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "心之门开了，而我的心，终于完整了。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rebuild",
+          "content": "这才是真正的我们。",
+          "emotion": "满足",
+          "action": "看着前方，眼中闪着光"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你，让我成为更好的自己。",
+          "emotion": "感激",
+          "action": "回头望了一眼梦境庭院，然后转身向前"
+        }
+      ]
+    }
+  ]
+}

@@ -66,7 +66,7 @@ STORY_PREMISE_HUMAN_PROMPT = """请基于以下用户原始创意和世界观设
 
 请以JSON格式输出故事前提，包含以下结构:
 {{
-    "hook": "一句话核心钩子，让玩家想玩这款游戏",
+    "hook": "核心钩子,描述为什么玩家想玩这款游戏",
     "core_question": "故事最终要回答的核心问题",
     "selling_points": [
         "卖点1",
@@ -91,7 +91,7 @@ STORY_PREMISE_HUMAN_PROMPT = """请基于以下用户原始创意和世界观设
 
 要求:
 1. emotional_tone 只能使用: 温馨, 治愈, 忧郁, 沉重, 悬疑, 紧张, 轻松, 悲喜交加, 其他
-2. selling_points 必须基于世界观中的独特元素，至少5-7个卖点
+2. selling_points 必须基于世界观中的独特元素
 3. world_setting_references 必须直接引用world_setting_json中的具体内容
 4. creative_boundaries 要明确列出后续创作不能违反的限制
 5. 禁止元素和必备元素必须从story_intake中准确继承

@@ -1,0 +1,603 @@
+{
+  "chapter": 18,
+  "chapter_id": "common_ch18",
+  "characters": [
+    {
+      "character_id": "heroine_001",
+      "character_name": "小飞翔"
+    },
+    {
+      "character_id": "heroine_002",
+      "character_name": "EO"
+    },
+    {
+      "character_id": "heroine_003",
+      "character_name": "Rebuild"
+    },
+    {
+      "character_id": "heroine_004",
+      "character_name": "莉拉"
+    },
+    {
+      "character_id": "protagonist_main",
+      "character_name": "星野翔太"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "星光下的坦白",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "梦境庭院的夜色比往常更温柔，仿佛连时间都放慢了脚步。我站在中央，四周是四位精灵的身影，她们不再沉默，而是静静望着我——像四颗星星，在我心上轻轻落定。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我深吸一口气，指尖微微发颤，不是因为害怕，而是因为终于能说出那些藏了太久的话。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "对不起……我一直不敢说，其实我怕得要命。",
+          "emotion": "紧张",
+          "action": "低头看着自己的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "你怕什么？怕我们不喜欢你吗？",
+          "emotion": "疑惑",
+          "action": "歪着头，眼神清澈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "不是不喜欢，是我怕……我会伤害你们。",
+          "emotion": "痛苦",
+          "action": "握紧拳头，指节泛白"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "可你已经伤害过自己了啊，翔太。",
+          "emotion": "温柔",
+          "action": "轻轻靠近一步"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "她说话时声音很轻，却像一把钥匙，打开了我心里那扇尘封已久的门。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我只是……不想再被丢下了。",
+          "emotion": "哽咽",
+          "action": "眼眶微红，声音颤抖"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你从来没被丢下过，是我们一直在等你愿意看我们一眼。",
+          "emotion": "坚定",
+          "action": "向前一步，伸出手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你说过‘一起走下去’，我就信了。现在轮到你相信你自己了。",
+          "emotion": "平静",
+          "action": "嘴角扬起一丝笑意"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "那一刻，我忽然明白了：原来真正的爱，不是逃避，而是勇敢地走进彼此的世界。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你们……没有放弃我。",
+          "emotion": "感动",
+          "action": "慢慢抬起头，泪水滑落"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "谁让你是我们选中的那个人呢？",
+          "emotion": "调皮",
+          "action": "跳起来转了个圈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "别哭了，你这样，我也想哭。",
+          "emotion": "无奈",
+          "action": "伸手擦掉我的眼泪"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我不会再躲了，也不会再让任何人受伤。",
+          "emotion": "决心",
+          "action": "握住每位精灵的手"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我们的手牵在一起，像是把过去的裂痕缝补成了光。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "我们一起走下去，好吗？",
+          "emotion": "齐声",
+          "action": "围成一圈，相视而笑"
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "愿力的回响",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "愿望水晶悬浮在空中，原本黯淡的颜色此刻正一点点变得透明、明亮，就像我们之间重新连接的情感。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我闭上眼，感受着愿力从心底涌出，不再是负担，而是温暖的力量。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "你看，它变亮了！这是属于我们的光！",
+          "emotion": "惊喜",
+          "action": "蹦跳着拍手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "以前我以为它是枷锁，现在才知道……它是钥匙。",
+          "emotion": "释然",
+          "action": "仰望星空，微笑"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "钥匙？那你现在是不是该打开新的门了？",
+          "emotion": "调侃",
+          "action": "挑眉，手指点了点额头"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我笑了，笑声落在风里，竟也有了温度。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "你知道吗？我最怕的是修复不了你的心。",
+          "emotion": "柔软",
+          "action": "低声说着，目光低垂"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "但现在我知道了，你不需要修好我，只要让我知道你是真的存在就好。",
+          "emotion": "深情",
+          "action": "轻轻抱住她"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "所以，你现在愿意看我了吗？不是作为‘神秘的人’，而是作为我自己？",
+          "emotion": "试探",
+          "action": "向前一步，靠近他的肩膀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我早就看见你了，莉拉。只是之前不敢承认。",
+          "emotion": "真诚",
+          "action": "握住她的手"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这一刻，我不再需要伪装坚强，也不再害怕脆弱。因为我终于明白，爱不是完美的，但正是这些不完美，才让它真实。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "哇！你们两个怎么突然这么肉麻啦～",
+          "emotion": "害羞",
+          "action": "捂脸，转身跑开两步又回头"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "嗯，至少这次没人再逃跑了。",
+          "emotion": "欣慰",
+          "action": "靠在树干上，轻轻一笑"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "这次不会了。因为你们教会我一件事——真正的勇气，是从接纳自己开始的。",
+          "emotion": "坚定",
+          "action": "环顾四周，眼神明亮"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "愿力水晶缓缓升空，化作一道光柱，直冲天际，照亮整个梦境庭院。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "那就继续写下去吧，我们的故事还没完呢。",
+          "emotion": "齐声",
+          "action": "手牵手，面向远方"
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "归途即起点",
+      "location": "dream_courtyard",
+      "time_of_day": "深夜",
+      "background": "梦幻空灵风格，天空如水彩般流动，地面如镜面倒映星光",
+      "narration": "梦境庭院的星光渐渐柔和，像是为我们送行。我们知道，这不是终点，而是新旅程的开始。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我站在她们中间，第一次感到如此完整——不是因为我拥有了所有，而是因为我终于懂得珍惜每一个不同的自己。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "以后不准再一个人躲在角落里想事情哦，我们会陪你。",
+          "emotion": "认真",
+          "action": "戳了戳我的脸颊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "嗯，我会试着……慢慢学会表达。",
+          "emotion": "羞涩",
+          "action": "挠头，低头笑"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "不用‘试着’，直接做就行。你本来就很好。",
+          "emotion": "温柔",
+          "action": "轻轻捏了一下我的耳朵"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "她这句话像一颗种子，在我心里悄悄发芽。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "记得下次有困难来找我，别一个人扛。",
+          "emotion": "体贴",
+          "action": "递给我一片记忆之叶"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "这叶子……是你留下的吗？",
+          "emotion": "惊讶",
+          "action": "接过叶子，仔细端详"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "是啊，每次你难过的时候，我都偷偷记录下来。现在，轮到你记住我们了。",
+          "emotion": "坚定",
+          "action": "眼中泛起泪光"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "还有我，虽然话不多，但我一直在看你。",
+          "emotion": "温柔",
+          "action": "轻轻靠在他肩上"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我闭上眼睛，感受着她们的气息，心跳声与星光同步，仿佛整个世界都在为我们鼓掌。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我想，我可以安心地走了。",
+          "emotion": "满足",
+          "action": "睁开眼，望向所有人"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "走？去哪儿？我们才刚见面呢！",
+          "emotion": "调皮",
+          "action": "跳起来抱住他腰"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "去下一个春天，下一个夏天，下一次心动。",
+          "emotion": "期待",
+          "action": "牵起她们的手"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "梦醒了，但我们的故事还在继续。这一次，我不再害怕未来，因为我终于找到了属于自己的光。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "一起去吧！",
+          "emotion": "齐声",
+          "action": "手拉手，走向晨曦"
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "新的黎明",
+      "location": "spirit_grove",
+      "time_of_day": "清晨",
+      "background": "森林童话风格，树木高大繁茂，树叶泛着微光，地面铺满柔软的青苔",
+      "narration": "精灵林的晨光洒落，一切都焕然一新。我们站在林间，不再是孤单的个体，而是彼此生命中最重要的一部分。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光穿过枝叶，落在我们身上，像是为这段旅程画上了温柔的句号。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你，小飞翔。是你让我第一次觉得，努力是有意义的。",
+          "emotion": "感激",
+          "action": "蹲下来平视她的眼睛"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "那你以后也要对我好一点呀！不然我就生气了！",
+          "emotion": "撒娇",
+          "action": "叉腰，嘟嘴"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "一定！我保证。",
+          "emotion": "郑重",
+          "action": "竖起食指，许诺"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "EO看着我，眼神里不再是怀疑，而是信任。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "别忘了，你要学会相信别人，不只是我。",
+          "emotion": "鼓励",
+          "action": "拍拍我的肩"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我会的。因为你教会我，理性之外，也有柔软的空间。",
+          "emotion": "成长",
+          "action": "微笑点头"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "那我也要提醒你，不要总想着修复别人，先修好自己。",
+          "emotion": "温柔",
+          "action": "轻声细语"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "你说得对，Rebuild。我现在知道，我不是为了拯救谁才活着的。",
+          "emotion": "顿悟",
+          "action": "握紧拳头，眼神坚定"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "莉拉一直没说话，只是静静地看着我，直到我主动靠近她。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "你知道吗？我最喜欢你的地方，就是你终于敢看我了。",
+          "emotion": "释怀",
+          "action": "轻轻靠在我怀里"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "因为我终于明白，真实的你，才是最美的。",
+          "emotion": "深情",
+          "action": "抱紧她，低声回应"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "这一刻，我不再是一个人走在路上的少年，而是一个拥有爱与被爱能力的青年。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "欢迎回家，翔太。",
+          "emotion": "齐声",
+          "action": "围住他，笑着拥抱"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "新的日子开始了，带着希望，带着伤痕，也带着永不熄灭的爱。",
+          "emotion": null,
+          "action": null
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "永恒的约定",
+      "location": "spirit_grove",
+      "time_of_day": "清晨",
+      "background": "森林童话风格，树木高大繁茂，树叶泛着微光，地面铺满柔软的青苔",
+      "narration": "我们坐在精灵林边缘的石头上，看着第一缕阳光爬上山丘。没有人说话，但空气里充满了默契和温暖。",
+      "events": [
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "我拿出那枚精灵之戒，轻轻放在掌心，它不再冰冷，反而散发着温热的光芒。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "它告诉我，真正的灵契，不是绑定，而是选择。",
+          "emotion": "感悟",
+          "action": "看向每一位精灵"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_001",
+          "content": "那你以后还会选我们吗？",
+          "emotion": "忐忑",
+          "action": "紧紧抓住我的袖子"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "当然会。因为你们不是我的‘选项’，而是我人生的答案。",
+          "emotion": "真挚",
+          "action": "握住她的手"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "EO笑了，那是我第一次看到她毫无防备的笑容。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_002",
+          "content": "你终于学会说情话了，真是难得。",
+          "emotion": "调侃",
+          "action": "用手指戳了戳我的脸"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "这不是情话，这是我心里最真实的声音。",
+          "emotion": "坚定",
+          "action": "握住她的手"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_003",
+          "content": "那你以后要记得，不管多累，都要回来找我们。",
+          "emotion": "温柔",
+          "action": "轻声叮嘱"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "我会的。因为这里，才是我真正的家。",
+          "emotion": "满足",
+          "action": "环顾四周，眼中含泪"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "莉拉站起身，走到我面前，将一朵发光的小花放在我的手心。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "heroine_004",
+          "content": "这是‘心之花’，只有真心的人才能看见它。",
+          "emotion": "神秘",
+          "action": "眨眨眼"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "protagonist_main",
+          "content": "谢谢你，让我成为那个‘真心的人’。",
+          "emotion": "感动",
+          "action": "捧着花朵，深深鞠躬"
+        },
+        {
+          "type": "narration",
+          "speaker": null,
+          "content": "阳光洒满整片林子，我们五个人并肩站着，像是命运早已写好的剧本——爱，终将抵达。",
+          "emotion": null,
+          "action": null
+        },
+        {
+          "type": "dialogue",
+          "speaker": "all",
+          "content": "一起走下去吧，永远。",
+          "emotion": "齐声",
+          "action": "手拉手，走向新生的每一天"
+        }
+      ]
+    }
+  ]
+}
