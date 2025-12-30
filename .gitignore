@@ -63,6 +63,12 @@ generated_games/
 
 # 图像生成输出
 images/
+# 但保留docs目录的图片
+!docs/*.png
+!docs/*.jpg
+!docs/*.jpeg
+!docs/*.webp
+# 其他位置的图片
 *.png
 *.jpg
 *.jpeg
